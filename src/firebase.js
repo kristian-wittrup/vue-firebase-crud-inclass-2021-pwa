@@ -1,3 +1,11 @@
+// #1 Add firebase SDK : https://firebase.google.com/docs/web/setup ( npm install --save firebase ) // use sudo npm install --save firebase if you need admin rights
+// Do above as one of the first things
+// #2 Create firebase + register app : https://console.firebase.google.com/
+//   #2.1 Copy firebase SDK information (login, api key, etc)
+// #3 Create FireStore database ( go to test mode )
+//   #3.1 Create a collection(users, projects, products, etc)
+
+
 import firebase from 'firebase'
 import { ref, onUnmounted } from 'vue'
 import getFirebaseCRUD from './modules/firebasecrud';
